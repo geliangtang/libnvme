@@ -6823,6 +6823,7 @@ struct nvmf_disc_log_entry {
  * @NVMF_TRTYPE_RDMA:		RDMA
  * @NVMF_TRTYPE_FC:		Fibre Channel
  * @NVMF_TRTYPE_TCP:		TCP
+ * @NVMF_TRTYPE_MPTCP:		MPTCP
  * @NVMF_TRTYPE_LOOP:		Intra-host Transport (i.e., loopback), reserved
  *				for host usage.
  * @NVMF_TRTYPE_MAX:		Maximum value for &enum nvmf_trtype
@@ -6832,6 +6833,7 @@ enum nvmf_trtype {
 	NVMF_TRTYPE_RDMA	= 1,
 	NVMF_TRTYPE_FC		= 2,
 	NVMF_TRTYPE_TCP		= 3,
+	NVMF_TRTYPE_MPTCP	= 4,
 	NVMF_TRTYPE_LOOP	= 254,
 	NVMF_TRTYPE_MAX,
 };

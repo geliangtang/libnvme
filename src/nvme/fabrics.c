@@ -73,6 +73,7 @@ const char * const trtypes[] = {
 	[NVMF_TRTYPE_RDMA]	= "rdma",
 	[NVMF_TRTYPE_FC]	= "fc",
 	[NVMF_TRTYPE_TCP]	= "tcp",
+	[NVMF_TRTYPE_MPTCP]	= "mptcp",
 	[NVMF_TRTYPE_LOOP]	= "loop",
 };
 
